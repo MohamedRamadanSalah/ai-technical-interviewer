@@ -1,0 +1,3 @@
+-- orders(id bigint, customer_id bigint, status text, total_cents int, created_at timestamptz)
+-- index: orders_customer_created_idx ON orders (customer_id, created_at)
+-- Write your query below.
